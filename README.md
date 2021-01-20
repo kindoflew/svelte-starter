@@ -16,6 +16,7 @@ update dependency versions until it is.
 
 ```
 //You'll have to add #main until degit supports defaults other than master
+
 npx degit kindoflew/svelte-starter#main <project-name>
 cd <project-name>
 npm install
