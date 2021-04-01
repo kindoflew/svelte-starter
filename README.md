@@ -9,15 +9,13 @@ A basic Svelte boilerplate with:
 * [normalize.css](https://github.com/necolas/normalize.css) (CDN in index.html)
 
 Based on the official [Svelte template](https://github.com/sveltejs/template).
-This will probably become obsolete after SvelteKit comes out, but I'll periodically 
-update dependency versions until it is.
+
+I'm going to keep this around for awhile because I believe the official template might be deprecated soon and it's nice to have a no-setup boilerplate for fast prototyping, etc.
 
 ## Getting started
 
 ```
-//You'll have to add #main until degit supports defaults other than master
-
-npx degit kindoflew/svelte-starter#main <project-name>
+npx degit kindoflew/svelte-starter <project-name>
 cd <project-name>
 npm install
 npm run dev
